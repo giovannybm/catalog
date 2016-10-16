@@ -1,0 +1,40 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+  id:
+    label: IDs
+    disabled: true
+    span: left
+  is_published:
+    label: Published
+    type: switch
+    default: 1
+    span: left
+  product_name:
+    label: Name
+    type: text
+    required: true
+    span: left
+  slug:
+    label: URL
+    span: left
+    attributes:
+        data-input-preset: 'input[name="Product[product_name]"]'
+        data-input-preset-type: slug
+        data-input-preset-closest-parent: form
+
+  categories:
+    label: Categories
+    type: relation
+    nameFrom: category_name
+
+secondaryTabs:
+  fields:
+    product_images:
+      label: Image
+      type: fileupload
+      mode: image
+      imageWidth: 260
+      imageHeight: 260

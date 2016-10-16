@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Product
+
+# Model Form Field configuration
+form: $/lexetam/catalog/models/product/fields.yaml
+
+# Model Class name
+modelClass: Lexetam\Catalog\Models\Product
+
+# Default redirect location
+defaultRedirect: lexetam/catalog/products
+
+# Create page
+create:
+    title: Create Product Item
+    redirect: lexetam/catalog/products/update/:id
+    redirectClose: lexetam/catalog/products
+
+# Update page
+update:
+    title: Edit product
+    redirect: lexetam/catalog/products
+    redirectClose: lexetam/catalog/products
+
+# Preview page
+preview:
+    title: Preview Product

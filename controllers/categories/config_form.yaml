@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Category
+
+# Model Form Field configuration
+form: $/lexetam/catalog/models/category/fields.yaml
+
+# Model Class name
+modelClass: Lexetam\Catalog\Models\Category
+
+# Default redirect location
+defaultRedirect: lexetam/catalog/categories
+
+# Create page
+create:
+    title: Create Category
+    redirect: lexetam/catalog/categories/update/:id
+    redirectClose: lexetam/catalog/categories
+
+# Update page
+update:
+    title: Edit Category
+    redirect: lexetam/catalog/categories
+    redirectClose: lexetam/catalog/categories
+
+# Preview page
+preview:
+    title: Preview Category

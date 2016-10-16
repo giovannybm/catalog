@@ -1,0 +1,32 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+  id:
+    label: ID
+    disabled: true
+    span: left
+  category_name:
+    label: Category
+    type: text
+    span: left
+  is_published:
+    label: Published
+    type: switch
+    default: 1
+    span: left
+  slug:
+    label: URL
+    span: left
+    attributes:
+        data-input-preset: 'input[name="Category[category_name]"]'
+        data-input-preset-type: slug
+        data-input-preset-closest-parent: form
+  category_image:
+      label: Image
+      type: fileupload
+      mode: image
+      imageWidth: 400
+      imageHeight: 400
+      useCaption: true
