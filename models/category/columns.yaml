@@ -9,7 +9,8 @@ columns:
     category_name:
         label: Name
         searchable: true
-    category_image:
+    image:
         label: Image
-        type: fileupload
-        mode: image
+        sortable: no
+        type: partial
+        path: ./partials/_featured_image.htm
