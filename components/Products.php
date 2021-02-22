@@ -10,5 +10,17 @@ use Lexetam\Catalog\Models\Category as listCategory;
 
 class Products extends ComponentBase
 {
- 
+    public function componentDetails()
+    {
+        return [
+            'name'        => 'demo Component',
+            'description' => 'No description provided yet...'
+        ];
+    }
+
+    public function defineProperties()
+    {
+        return [];
+    }
+
 }
