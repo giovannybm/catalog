@@ -12,7 +12,8 @@ columns:
   image:
     label: Image
     sortable: no
-    type: image
+    type: partial
+    path: ~/plugins/lexetam/catalog/models/product/partials/_featured_image.htm
   is_published:
     label: Published
     type: switch
