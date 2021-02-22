@@ -9,7 +9,7 @@ columns:
     category_name:
         label: Name
         searchable: true
-    image:
-      label: Image
-      type: fileupload
-      mode: image
+    category_image:
+        label: Image
+        type: fileupload
+        mode: image
