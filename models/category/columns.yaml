@@ -13,4 +13,4 @@ columns:
         label: Image
         sortable: no
         type: partial
-        path: ./partials/_featured_image.htm
+        path: ~/plugins/lexetam/catalog/models/category/partials/_featured_image.htm
