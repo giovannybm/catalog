@@ -11,5 +11,5 @@ columns:
         searchable: true
     image:
       label: Image
-      sortable: no
-      type: image
+      type: fileupload
+      mode: image
